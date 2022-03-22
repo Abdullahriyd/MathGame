@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Math Game :)</title>
+<meta charset="ctf-8">
+<meta name="viewport" content="width=device-width,
+ initial-scale=1, user-scalable=yes" >
+ <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+
+   <div id="container">
+
+        <audio id="wrongSound">             
+            <source src="Media/wrong.mp3"></source>                  
+        </audio>
+        <audio id="correctSound">             
+                <source src="Media/correct.mp3"></source>             
+        </audio>
+        <audio id="gameSound">             
+                <source src="Media/gsme.mp3"></source>             
+        </audio>
+        <audio id="gameoverSound">             
+                <source src="Media/gameOver.mp3"></source>                  
+            </audio> 
+
+       <div id="score">Score: <span id="scoreValue"> 0 </span></div>
+
+       <div id="correct">Correct</div>
+
+       <div id="wrong">Wrong</div>
+
+       <div id="sum">10 <span id="sign">X</span> 10</div>
+
+       <div id="instruction">
+            <span id="number">The correct one is.</span> </div>
+        <div id="progress"></div>    
+
+       <div id="boxes">
+           <div id="box1" class="box">56</div>
+           <div id="box2" class="box">45</div>
+           <div id="box3" class="box">100</div>
+           <div id="box4" class="box">92</div>
+       </div>
+
+       <div id="startreset">Start Game</div>
+
+       <div id="timeremaining">Time remaining:<span id="timeremainingvalue">0</span> sec</div> 
+
+        <div id="gameOver"></div>
+
+   </div> 
+   <script src="game.js"></script>
+</body>
+
+</html>
